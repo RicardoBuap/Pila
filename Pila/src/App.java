@@ -8,5 +8,10 @@ public class App {
         pila.IngresarNodoPila(2);
         pila.IngresarNodoPila(1);
         System.out.println(pila.ImprimirPila());
+        System.out.println("El tamaño de la pila es de:" + pila.TamañoPila());
+        System.out.println("El tope de la pila es: " + pila.TopePila());
+        System.out.println("Eliminando Nodo de la Pila: " + pila.EliminarNodo());
+        System.out.println(pila.ImprimirPila());
+        System.out.println("El tamaño de la pila es de:" + pila.TamañoPila());        
     }
 }

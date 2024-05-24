@@ -29,4 +29,19 @@ public class Pila {
         }
         return lista;
     }
+
+    public boolean PilaVacia(){
+        return ultimovaloringresado == null;
+    }
+
+    public Object TopePila(){
+        return ultimovaloringresado.informacion;
+    }
+
+    public Object EliminarNodo(){
+        Object eliminado = ultimovaloringresado.informacion;
+        ultimovaloringresado = ultimovaloringresado.siguiente;
+        tamaño--;
+        return eliminado;
+    }
 }
