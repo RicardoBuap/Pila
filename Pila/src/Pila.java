@@ -44,4 +44,9 @@ public class Pila {
         tamaño--;
         return eliminado;
     }
+
+    public void VaciarPila(){
+        while(!PilaVacia())
+            EliminarNodo();
+    }
 }
