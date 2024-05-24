@@ -22,7 +22,7 @@ public class App {
             switch (opcion) {
                 case 1:
                     System.out.print("Ingresa un valor al nodo:");
-                    informacion = Teclado.nextInt();
+                    informacion = Teclado.nextLine();
                     pila.IngresarNodoPila(informacion);
                     break;
 
